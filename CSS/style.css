@@ -1,0 +1,194 @@
+*{box-sizing: border-box;}
+
+body{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.6;	
+}
+
+.home-wrapper{
+	background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg') no-repeat center top;
+	background-size:cover;
+	color: white;
+	background-attachment: fixed;
+}
+header{
+	position: fixed;
+	width: 100%;
+	padding: 10px 0;
+	background-color: rgba(48, 48, 48, .5);
+}
+
+header img{
+	width: 250px;
+}
+
+header nav{
+	float: right;
+	margin-top: 8px;
+}
+
+header nav a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	border-left: 10px;
+	margin-left: 10px;
+	padding:10px 15px;
+	webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+
+header nav a.active{
+	background: #fed136;
+	border-radius: 4px;
+}
+
+header nav a:hover{
+	background-color: black;
+	color:white;
+}
+
+#home{
+	width: 55%;
+	text-align: center;
+	padding: 250px 0 200px;
+}
+#home h1{
+	font-size: 70px;
+	font-weight: normal;
+	padding-top: 50px;
+	line-height: 1.2;
+	margin-bottom: 40px;	
+}
+
+#home .divider {
+	width: 80px;
+	border-top: 5px solid #fed136;
+	margin: 0 auto;
+}
+#home p{
+	font-size: 26px;
+	padding-bottom: 100px;
+	margin-top: 40px;
+}
+
+#servi .box{
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+	padding: 10px;
+}
+
+#porta {
+	background-color: whitesmoke;
+}
+
+#vid {
+	background-color: black;
+	text-align: center;
+	padding: 30px 0;
+}
+
+#porta .box{
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+	width: 31%;
+	margin: 1%;
+	padding: 5px;
+}
+
+#porta p{
+	color:#666;
+	padding: 20px; 
+}
+
+#porta img {
+	width: 100%;
+}
+
+
+.social a {
+	background-color: black;
+	display: inline-block;
+	font-weight: bold;
+	font-size:30px;
+	margin-left: 10px;
+	color:white;
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.social a:hover {
+	background-color: #fed136;
+}
+
+#cont {
+	background-color: #303030;
+	background-image: url('../images/map-image.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#cont h2 {
+	color: white;
+}
+
+#cont input {
+	padding: 10px 0;
+	width: 300px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px
+}
+
+#cont textarea {
+	padding: 10px 0;
+	width: 300px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+#cont button {
+	padding:10px 20px;
+	background-color:#fed136;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	padding: 70px;
+	font-size: 18px;
+}
+
+section {
+	padding: 80px 0;
+}
+
+section h2{
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.container{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
